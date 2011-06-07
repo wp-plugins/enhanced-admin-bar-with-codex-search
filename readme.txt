@@ -22,10 +22,6 @@ This simple plugin enhances the default WordPress admin bar by adding custom men
 The plugin also includes a dashboard widget that conveniently displays info about the currently active theme.
 
 
-
-A few notes about the sections above:
-
-
 == Installation ==
 
 This section describes how to install the plugin and get it working.
