@@ -10,8 +10,8 @@ Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 1.5
-Version: 1.5
+Stable tag: 1.5.1
+Version: 1.5.1
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, and common wp-admin areas via the 3.1 Admin Bar. Also, add your own custom menu to the Admin Bar.
 
@@ -45,6 +45,9 @@ This plugin adds convenient search fields to provide easy access to the codex, w
 
 == Changelog ==
 
+= 1.5.1 =
+* Fixed small bug that didn't remove main menu item when a custom menu was removed.
+
 = 1.5 =
 * Plugins search now takes you to the WordPress internal plugins search page rather than wordpress.org.
 * Added search for: wpbeginner.com Themes, Media, Pages, Posts, Custom Post Types.
@@ -53,8 +56,10 @@ This plugin adds convenient search fields to provide easy access to the codex, w
 * Added Settings sub-menus to the Settings dropdown in the Admin Bar Menu.
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
-
 == Upgrade Notice ==
+
+= 1.5.1 =
+Fixed small bug that didn't remove main menu item when a custom menu was removed.
 
 = 1.5 =
 Upgrade for more search options, and option to add your own custom menu.
