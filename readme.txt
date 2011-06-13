@@ -63,5 +63,3 @@ Fixed small bug that didn't remove main menu item when a custom menu was removed
 
 = 1.5 =
 Upgrade for more search options, and option to add your own custom menu.
-
-== Arbitrary section ==

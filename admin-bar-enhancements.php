@@ -6,7 +6,7 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
-Version: 1.5
+Version: 1.5.1
 */
 
 
@@ -64,22 +64,24 @@ function dsgnwrks_admin_bar_menu() {
 		$menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
 
 	    $menu_items = wp_get_nav_menu_items( $menu->term_id );
-	    $wp_admin_bar->add_menu( array(
-	        'id' => 'dsgnwrks-admin-menu-0',
-	        'title' => 'Enhanced Admin Bar Custom Menu',
-			'href' => '#' ) );
-	    foreach ( $menu_items as $menu_item ) {
-	        $wp_admin_bar->add_menu( array(
-	            'id' => 'dsgnwrks-admin-menu-' . $menu_item->ID,
-	            'parent' => 'dsgnwrks-admin-menu-' . $menu_item->menu_item_parent,
-	            'title' => $menu_item->title,
-	            'href' => $menu_item->url,
-	            'meta' => array(
-	                'title' => $menu_item->attr_title,
-	                'target' => $menu_item->target,
-	                'class' => implode( ' ', $menu_item->classes ),
-	            ),
-	        ) );
+	    if ($menu_items) {
+		    $wp_admin_bar->add_menu( array(
+		        'id' => 'dsgnwrks-admin-menu-0',
+		        'title' => 'Enhanced Admin Bar Custom Menu',
+				'href' => '#' ) );
+		    foreach ( $menu_items as $menu_item ) {
+		        $wp_admin_bar->add_menu( array(
+		            'id' => 'dsgnwrks-admin-menu-' . $menu_item->ID,
+		            'parent' => 'dsgnwrks-admin-menu-' . $menu_item->menu_item_parent,
+		            'title' => $menu_item->title,
+		            'href' => $menu_item->url,
+		            'meta' => array(
+		                'title' => $menu_item->attr_title,
+		                'target' => $menu_item->target,
+		                'class' => implode( ' ', $menu_item->classes ),
+		            ),
+		        ) );
+		    }
 	    }
 	}
 
