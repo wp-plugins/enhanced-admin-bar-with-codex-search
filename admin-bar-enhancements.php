@@ -14,8 +14,13 @@ Version: 1.5.1
 add_action('wp_print_styles', 'dsgnwrks_adminbar_search_css');
 add_action('admin_print_styles', 'dsgnwrks_adminbar_search_css');
 function dsgnwrks_adminbar_search_css() { 
-	wp_enqueue_style('adminbar_search_css', plugins_url('css/adminbar_search.css', __FILE__));
-}
+	wp_enqueue_style('adminbar_search_css', plugins_url('css/adminbar_search.css', __FILE__)); ?>
+	<style type="text/css"> 
+		#wpadminbar .quicklinks li:hover ul ul {
+		  left: auto;
+		}
+	</style> 
+<?php }
 
 // add search forms to 3.2+ wp-admin header
 add_filter( 'in_admin_header', 'dsgnwrks_3_2_search_formS', 11 );
