@@ -5,7 +5,7 @@ Contributors: jtsternberg
 Plugin Name: Enhanced Admin Bar with Codex Search and Custom Menus
 Plugin URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Tags: Admin Bar, Codex Search, Search, Admin, adminbar, bar, topbar, plugin search, dashboard widget, wpbeginner, custom menu, menus
-Author URI: http://dsgnwrks.pro
+Author URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
 Requires at least: 3.0
