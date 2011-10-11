@@ -22,26 +22,6 @@ function dsgnwrks_adminbar_search_css() {
 	</style> 
 <?php }
 
-// add search forms to 3.2+ wp-admin header
-add_filter( 'in_admin_header', 'dsgnwrks_3_2_search_formS', 11 );
-function dsgnwrks_3_2_search_formS() {
-	if ( get_bloginfo('version') >= 3.2 ) {
-		// install_search_form2();
-	    echo '
-		<form method="get" action="'.admin_url('plugin-install.php').'"  class="alignright dw_search_form search_plugins" >
-			<input type="hidden" name="tab" value="search"/>
-			<input type="hidden" name="type" value="term"/>
-			<input type="text" placeholder="Search Plugins" onblur="this.value=(this.value==\'\') ? \'Search Plugins\' : this.value;" onfocus="this.value=(this.value==\'Search Plugins\') ? \'\' : this.value;" value="Search Plugins" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
-			<input type="submit" value="Go" class="button dw_search_go"  />
-		</form>
-		<form target="_blank" method="get" action="http://wordpress.org/search/do-search.php" class="alignright dw_search_form search_codex" >
-			<input type="text" onblur="this.value=(this.value==\'\') ? \'Search the Codex\' : this.value;" onfocus="this.value=(this.value==\'Search the Codex\') ? \'\' : this.value;" value="Search the Codex" name="search" class="text dw_search_input" > 
-			<input type="submit" value="Go" class="button dw_search_go"  />
-		</form>
-	    ';
-	}
-}
-
 // Add Custom Menu Option
 add_action('init', 'dsgnwrks_adminbar_nav');
 function dsgnwrks_adminbar_nav() {
@@ -235,7 +215,7 @@ function dsgnwrks_admin_bar_menu() {
 		if ( true !== $ptype_obj->show_in_menu || ! current_user_can( $ptype_obj->cap->edit_posts ) )
 			continue;
 
-		$actions[ 'post-new.php?post_type=' . $ptype_obj->name ] = array( $ptype_obj->labels->name, $ptype_obj->cap->edit_posts, 'new-' . $ptype_obj->name, $ptype_obj->labels->singular_name, $ptype_obj->name, 'edit.php?post_type=' . $ptype_obj->name );
+		$actions[ 'post-new.php?post_type=' . $ptype_obj->name ] = array( $ptype_obj->labels->name, $ptype_obj->cap->edit_posts, 'eab-new-' . $ptype_obj->name, $ptype_obj->labels->singular_name, $ptype_obj->name, 'edit.php?post_type=' . $ptype_obj->name );
 	}
 
 	if ( empty( $actions ) )

@@ -10,8 +10,8 @@ Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 1.5.2
-Version: 1.5.2
+Stable tag: 1.5.3
+Version: 1.5.3
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, and common wp-admin areas via the 3.1 Admin Bar. Also, add your own custom menu to the Admin Bar.
 
@@ -45,6 +45,9 @@ This plugin adds convenient search fields to provide easy access to the codex, w
 
 == Changelog ==
 
+= 1.5.3 =
+* Fixed bug with duplicate menu classes. Also removed search forms from admin side. *future release: options page to enable/disable plugin features
+
 = 1.5.2 =
 * Fixed bug that displayed labels intended for screenreaders on the screen.
 
@@ -60,6 +63,9 @@ This plugin adds convenient search fields to provide easy access to the codex, w
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
 == Upgrade Notice ==
+
+= 1.5.3 =
+Fixed bug with duplicate menu classes. Also removed search forms from admin side. *future release: options page to enable/disable plugin features*
 
 = 1.5.2 =
 Fixed small bug that didn't remove main menu item when a custom menu was removed.
