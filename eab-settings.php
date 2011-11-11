@@ -60,7 +60,7 @@
             <tr valign="top">
             <th scope="row">
             <strong>Add Genesis theme menu</strong>
-            <p>Adds a top-level menu item with dropdowns to access the Genesis framework settings pages.<p>
+            <p>Adds a top-level menu item with dropdowns to access the Genesis framework settings pages. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)<p>
             </th>
             <td><input type="checkbox" name="eab-genesis-menu" value="yes"<?php echo $eab_genesis_menu == 'yes' ? ' checked' : '';?> /></td>
             </tr>
