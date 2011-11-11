@@ -22,10 +22,13 @@ This simple plugin enhances the default WordPress admin bar by adding a new menu
 If that's not enough link goodness for you, the plugin now has the option for a custom WordPress menu in the WordPress Admin Bar. (Props to <a href="https://twitter.com/wpsnipp" target="_blank">@wpsnipp</a> - <a href="http://wpsnipp.com/" target="_blank">http://wpsnipp.com/</a>) If you go to wp-admin/nav-menus.php you'll see a theme location, "Admin Bar Custom Navigation Menu" where you can attach a custom menu.
 
 Other plugin features:
-- if you use the Genesis theme framework, a custom Geneis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
-- Includes option for a dashboard widget that conveniently displays info about the currently active theme.
-- Turn wpbeginner.com and WordPress support forums on/off.
-- Turn on/off admin bar features on the front-end or the admin side.
+<ul>
+	<li>if you use the Genesis theme framework, a custom Geneis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
+	</li>
+	<li> Includes option for a dashboard widget that conveniently displays info about the currently active theme.</li>
+	<li>Turn wpbeginner.com and WordPress support forums on/off.</li>
+	<li>Turn on/off admin bar features on the front-end or the admin side.</li>
+</ul>
 
 
 == Installation ==
