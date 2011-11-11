@@ -33,7 +33,7 @@ Other plugin features:
 
 == Installation ==
 
-1. Upload the `admin-bar-enhancements` directory to the `/wp-content/plugins/` directory.
+1. Upload the `enhanced-admin-bar-with-codex-search` directory to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Visit the plugin settings page (`/wp-admin/options-general.php?page=eab-importer-settings`) to verify the plugin options you want enabled.
 4. If you have enabled the custom menu option, navigate to "Menus" under "Appearance." You'll see a theme location, "Admin Bar Custom Navigation Menu" where you can attach a custom menu.
