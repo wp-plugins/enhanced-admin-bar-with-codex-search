@@ -22,7 +22,7 @@ This simple plugin enhances the default WordPress admin bar by adding a new menu
 If that's not enough link goodness for you, the plugin now has the option for a custom WordPress menu in the WordPress Admin Bar. (Props to <a href="https://twitter.com/wpsnipp" target="_blank">@wpsnipp</a> - <a href="http://wpsnipp.com/" target="_blank">http://wpsnipp.com/</a>) If you go to wp-admin/nav-menus.php you'll see a theme location, "Admin Bar Custom Navigation Menu" where you can attach a custom menu.
 
 Other plugin features:
-- if you use the Genesis theme framework, a custom Geneis menu can be added to the admin bar.
+- if you use the Genesis theme framework, a custom Geneis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
 - Includes option for a dashboard widget that conveniently displays info about the currently active theme.
 - Turn wpbeginner.com and WordPress support forums on/off.
 - Turn on/off admin bar features on the front-end or the admin side.
@@ -32,13 +32,13 @@ Other plugin features:
 
 1. Upload the `admin-bar-enhancements` directory to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Visit the plugin settings page (/wp-admin/options-general.php?page=eab-importer-settings) to verify the plugin options you want enabled.
+3. Visit the plugin settings page (`/wp-admin/options-general.php?page=eab-importer-settings`) to verify the plugin options you want enabled.
 4. If you have enabled the custom menu option, navigate to "Menus" under "Appearance." You'll see a theme location, "Admin Bar Custom Navigation Menu" where you can attach a custom menu.
 
 == Frequently Asked Questions ==
 
-<p><i>Can I enable/disable dashboard widget?</i></p>
-<p><b>YES! Plugin now includes an option page to control which features are enabled. Dashboard widget is off by default.</b></p>
+<h4>Can I enable/disable dashboard widget?</h4>
+<p><strong>YES!</strong> Plugin now includes an option page to control which features are enabled. Dashboard widget is off by default.</p>
 
 == Screenshots ==
 
