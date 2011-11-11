@@ -26,7 +26,7 @@ Other plugin features:
 	<li>if you use the Genesis theme framework, a custom Genesis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
 	</li>
 	<li> Includes option for a dashboard widget that conveniently displays info about the currently active theme.</li>
-	<li>Turn wpbeginner.com and WordPress support forums on/off.</li>
+	<li>Turn wpbeginner.com search and WordPress support forums search on/off.</li>
 	<li>Turn on/off admin bar features on the front-end or the admin side.</li>
 </ul>
 
