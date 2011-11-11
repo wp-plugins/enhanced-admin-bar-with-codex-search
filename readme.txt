@@ -23,7 +23,7 @@ If that's not enough link goodness for you, the plugin now has the option for a 
 
 Other plugin features:
 <ul>
-	<li>if you use the Genesis theme framework, a custom Geneis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
+	<li>if you use the Genesis theme framework, a custom Genesis menu can be added to the admin bar. (for more enhanced functionality regarding Genesis admin bar menus, see <a href="http://profiles.wordpress.org/users/GaryJ/">GaryJ</a>'s excellent plugin, <a href="http://wordpress.org/extend/plugins/genesis-admin-bar-plus/">Genesis Admin Bar Plus</a>)
 	</li>
 	<li> Includes option for a dashboard widget that conveniently displays info about the currently active theme.</li>
 	<li>Turn wpbeginner.com and WordPress support forums on/off.</li>
