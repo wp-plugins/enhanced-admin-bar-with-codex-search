@@ -10,8 +10,8 @@ Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 2.0
-Version: 2.0
+Stable tag: 2.0.1
+Version: 2.0.1
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, WordPress support forums and common wp-admin areas via the WordPress Admin Bar. Also, add your own custom menu to the Admin Bar. options can now be controlled from an options page.
 
@@ -55,6 +55,9 @@ Other plugin features:
 
 == Changelog ==
 
+= 2.0.1 =
+* Updated Genesis menu icon css.
+
 = 2.0 =
 * Added options page to enable/disable plugin features.
 * Added a WordPress Forum search box option.
@@ -79,6 +82,9 @@ Other plugin features:
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+Updated Genesis menu icon css.
 
 = 2.0 =
 Adds an options page to enable/disable plugin features along with a WordPress Forum search box option, a Genesis framework menu option, and removes features incompatible with WP 3.3.

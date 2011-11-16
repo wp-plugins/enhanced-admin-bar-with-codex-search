@@ -6,7 +6,8 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
-Version: 2.0
+Stable tag: 2.0.1
+Version: 2.0.1
 */
 
 
