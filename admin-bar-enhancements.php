@@ -6,8 +6,8 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
-Stable tag: 2.0.1
-Version: 2.0.1
+Stable tag: 2.0.2
+Version: 2.0.2
 */
 
 
@@ -139,7 +139,7 @@ function dsgnwrks_admin_bar_menu() {
 			<form method="get" action="'.admin_url('plugin-install.php?tab=search').'"  class="alignleft dw_search" >
 			<input type="hidden" name="tab" value="search"/>
 			<input type="hidden" name="type" value="term"/>
-			<input type="text" placeholder="Search Plugins" onblur="this.value=(this.value==\'\') ? \'Search Plugins\' : this.value;" onfocus="this.value=(this.value==\'Search Plugins\') ? \'\' : this.value;" value="Search Plugins" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Plugins" onblur="this.value=(this.value==\'\') ? \'Search Plugins\' : this.value;" onfocus="this.value=(this.value==\'Search Plugins\') ? \'\' : this.value;" value="Search Plugins" name="s" value="' . esc_attr('Search Plugins') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -161,7 +161,7 @@ function dsgnwrks_admin_bar_menu() {
 			<form method="get" action="'.admin_url('theme-install.php?tab=search').'"  class="alignleft dw_search" >
 			<input type="hidden" name="tab" value="search"/>
 			<input type="hidden" name="type" value="term"/>
-			<input type="text" placeholder="Search Themes" onblur="this.value=(this.value==\'\') ? \'Search Themes\' : this.value;" onfocus="this.value=(this.value==\'Search Themes\') ? \'\' : this.value;" value="Search Themes" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Themes" onblur="this.value=(this.value==\'\') ? \'Search Themes\' : this.value;" onfocus="this.value=(this.value==\'Search Themes\') ? \'\' : this.value;" value="Search Themes" name="s" value="' . esc_attr('Search Themes') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -181,7 +181,7 @@ function dsgnwrks_admin_bar_menu() {
 			'title' => __( '
 			<strong style="display:none;">Search Media</strong>
 			<form method="get" action="'.admin_url('upload.php?tab=search').'"  class="alignleft dw_search" >
-			<input type="text" placeholder="Search Media" onblur="this.value=(this.value==\'\') ? \'Search Media\' : this.value;" onfocus="this.value=(this.value==\'Search Media\') ? \'\' : this.value;" value="Search Media" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Media" onblur="this.value=(this.value==\'\') ? \'Search Media\' : this.value;" onfocus="this.value=(this.value==\'Search Media\') ? \'\' : this.value;" value="Search Media" name="s" value="' . esc_attr('Search Media') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -201,7 +201,7 @@ function dsgnwrks_admin_bar_menu() {
 			'title' => __( '
 			<strong style="display:none;">Search Users</strong>
 			<form method="get" action="'.admin_url('users.php?tab=search').'"  class="alignleft dw_search" >
-			<input type="text" placeholder="Search Users" onblur="this.value=(this.value==\'\') ? \'Search Users\' : this.value;" onfocus="this.value=(this.value==\'Search Users\') ? \'\' : this.value;" value="Search Users" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Users" onblur="this.value=(this.value==\'\') ? \'Search Users\' : this.value;" onfocus="this.value=(this.value==\'Search Users\') ? \'\' : this.value;" value="Search Users" name="s" value="' . esc_attr('Search Users') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -223,7 +223,7 @@ function dsgnwrks_admin_bar_menu() {
 			<form method="get" action="'.admin_url('plugin-install.php?tab=search').'"  class="alignleft dw_search" >
 			<input type="hidden" name="tab" value="search"/>
 			<input type="hidden" name="type" value="term"/>
-			<input type="text" placeholder="Search Plugins" onblur="this.value=(this.value==\'\') ? \'Search Plugins\' : this.value;" onfocus="this.value=(this.value==\'Search Plugins\') ? \'\' : this.value;" value="Search Plugins" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Plugins" onblur="this.value=(this.value==\'\') ? \'Search Plugins\' : this.value;" onfocus="this.value=(this.value==\'Search Plugins\') ? \'\' : this.value;" value="Search Plugins" name="s" value="' . esc_attr('Search Plugins') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -240,7 +240,7 @@ function dsgnwrks_admin_bar_menu() {
 			<form method="get" action="'.admin_url('theme-install.php?tab=search').'"  class="alignleft dw_search" >
 			<input type="hidden" name="tab" value="search"/>
 			<input type="hidden" name="type" value="term"/>
-			<input type="text" placeholder="Search Themes" onblur="this.value=(this.value==\'\') ? \'Search Themes\' : this.value;" onfocus="this.value=(this.value==\'Search Themes\') ? \'\' : this.value;" value="Search Themes" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Themes" onblur="this.value=(this.value==\'\') ? \'Search Themes\' : this.value;" onfocus="this.value=(this.value==\'Search Themes\') ? \'\' : this.value;" value="Search Themes" name="s" value="' . esc_attr('Search Themes') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -255,7 +255,7 @@ function dsgnwrks_admin_bar_menu() {
 			'title' => __( '
 			<strong style="display:none;">Search Media</strong>
 			<form method="get" action="'.admin_url('upload.php?tab=search').'"  class="alignleft dw_search" >
-			<input type="text" placeholder="Search Media" onblur="this.value=(this.value==\'\') ? \'Search Media\' : this.value;" onfocus="this.value=(this.value==\'Search Media\') ? \'\' : this.value;" value="Search Media" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Media" onblur="this.value=(this.value==\'\') ? \'Search Media\' : this.value;" onfocus="this.value=(this.value==\'Search Media\') ? \'\' : this.value;" value="Search Media" name="s" value="' . esc_attr('Search Media') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -270,7 +270,7 @@ function dsgnwrks_admin_bar_menu() {
 			'title' => __( '
 			<strong style="display:none;">Search Users</strong>
 			<form method="get" action="'.admin_url('users.php?tab=search').'"  class="alignleft dw_search" >
-			<input type="text" placeholder="Search Users" onblur="this.value=(this.value==\'\') ? \'Search Users\' : this.value;" onfocus="this.value=(this.value==\'Search Users\') ? \'\' : this.value;" value="Search Users" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />
+			<input type="text" placeholder="Search Users" onblur="this.value=(this.value==\'\') ? \'Search Users\' : this.value;" onfocus="this.value=(this.value==\'Search Users\') ? \'\' : this.value;" value="Search Users" name="s" value="' . esc_attr('Search Users') . '" class="text dw_search_input" />
 			'.$go_button),
 			'href' => '#' ) );
 
@@ -303,7 +303,7 @@ function dsgnwrks_admin_bar_menu() {
 				<form method="get" action="'.admin_url('edit.php').'"  class="alignleft dw_search" >
 				<input type="hidden" name="post_status" value="all"/>
 				<input type="hidden" name="post_type" value="'.$action[4].'"/>
-				<input type="text" placeholder="Search '.$action[0].'" onblur="this.value=(this.value==\'\') ? \'Search '.$action[0].'\' : this.value;" onfocus="this.value=(this.value==\'Search '.$action[0].'\') ? \'\' : this.value;" value="Search '.$action[0].'" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />'.$go_button),
+				<input type="text" placeholder="Search '.$action[0].'" onblur="this.value=(this.value==\'\') ? \'Search '.$action[0].'\' : this.value;" onfocus="this.value=(this.value==\'Search '.$action[0].'\') ? \'\' : this.value;" value="Search '.$action[0].'" name="s" value="' . esc_attr('Search '.$action[0]) . '" class="text dw_search_input" />'.$go_button),
 				'href' => '#' ) );
 			}
 		} else {
@@ -322,7 +322,7 @@ function dsgnwrks_admin_bar_menu() {
 				<form method="get" action="'.admin_url('edit.php').'"  class="alignleft dw_search" >
 				<input type="hidden" name="post_status" value="all"/>
 				<input type="hidden" name="post_type" value="'.$action[4].'"/>
-				<input type="text" placeholder="Search '.$action[0].'" onblur="this.value=(this.value==\'\') ? \'Search '.$action[0].'\' : this.value;" onfocus="this.value=(this.value==\'Search '.$action[0].'\') ? \'\' : this.value;" value="Search '.$action[0].'" name="s" value="' . esc_attr($term) . '" class="text dw_search_input" />'.$go_button),
+				<input type="text" placeholder="Search '.$action[0].'" onblur="this.value=(this.value==\'\') ? \'Search '.$action[0].'\' : this.value;" onfocus="this.value=(this.value==\'Search '.$action[0].'\') ? \'\' : this.value;" value="Search '.$action[0].'" name="s" value="' . esc_attr('Search '.$action[0]) . '" class="text dw_search_input" />'.$go_button),
 				'href' => '#' ) );
 
 				$wp_admin_bar->add_menu( array( 
