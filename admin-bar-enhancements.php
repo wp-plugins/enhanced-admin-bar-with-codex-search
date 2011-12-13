@@ -6,8 +6,8 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
-Stable tag: 2.0.2
-Version: 2.0.2
+Stable tag: 2.0.3
+Version: 2.0.3
 */
 
 
@@ -38,8 +38,8 @@ function eab_importer_settings() { require_once('eab-settings.php'); }
 
 
 // Enqueue Styles
-add_action('wp_print_styles', 'dsgnwrks_adminbar_search_css');
-add_action('admin_print_styles', 'dsgnwrks_adminbar_search_css');
+add_action('wp_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
+add_action('admin_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
 function dsgnwrks_adminbar_search_css() { 
 	wp_enqueue_style('adminbar_search_css', plugins_url('css/adminbar_search.css', __FILE__)); 
 	// Adds styles that compensates for a Genesis issue with Admin Bar dropdowns.  As a result, fixes admin bar issues for those using Genesis	?>

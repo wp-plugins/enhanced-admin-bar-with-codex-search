@@ -10,8 +10,8 @@ Author: DsgnWrks
 Donate link: http://dsgnwrks.pro/give/
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 2.0.2
-Version: 2.0.2
+Stable tag: 2.0.3
+Version: 2.0.3
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, WordPress support forums and common wp-admin areas via the WordPress Admin Bar. Also, add your own custom menu to the Admin Bar. options can now be controlled from an options page.
 
@@ -55,6 +55,9 @@ Other plugin features:
 
 == Changelog ==
 
+= 2.0.3 =
+* Updates for WordPress 3.3.
+
 = 2.0.2 =
 * Remove empty variables.
 
@@ -86,7 +89,10 @@ Other plugin features:
 
 == Upgrade Notice ==
 
-= 2.0.1 =
+= 2.0.3 =
+Updates for WordPress 3.3.
+
+= 2.0.2 =
 Remove empty variables.
 
 = 2.0.1 =
