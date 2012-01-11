@@ -45,7 +45,13 @@ Other plugin features:
 
 == Screenshots ==
 
-
+1. Menu view from the front-end of your site. Posts and Pages are displayed, but if you have custom post types, they would also show up in this list with a search field and "add new" link on hover. Also displaying with the WordPress Forums search enabled.
+2. Menu view from WordPress Admin back-end. Note that custom post types corresponding search fields are automatically added to the list.
+3. Options page for selecting which features are enabled.
+4. View of WordPress built-in menu system with a custom menu added to the Admin Bar
+5. View of Admin Bar with custom menu added.
+6. Codex search functions like new search box in 3.3 admin bar.
+7. View of admin bar on front-end with Genesis menu option enabled.
 
 == Changelog ==
 
