@@ -252,10 +252,10 @@
 	vertical-align: middle;
 	margin: 0 8px 0 5px;
 }
-.jtemail span {
+.jtsocial .jtemail span {
 	background-position: -64px 0;
 }
-.jttwitter span {
+.jtsocial .jttwitter span {
 	background-position: -128px 0;
 }
 
