@@ -224,6 +224,9 @@
 
 /* Admin Page CSS */
 
+.enhanced-admin-bar {
+	float: left;
+}
 .enhanced-admin-bar p, .enhanced-admin-bar .form-table {
 	width: auto;
 	max-width: 660px;
@@ -237,6 +240,25 @@
 	border: none;
 	border-bottom: 10px solid #fff;
 }
+
+.jtsocial {
+	float: right;
+}
+.jtsocial a span {
+	background: url(../images/social.png) no-repeat top left;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+	margin: 0 8px 0 5px;
+}
+.jtemail span {
+	background-position: -64px 0;
+}
+.jttwitter span {
+	background-position: -128px 0;
+}
+
 
 /* Genesis Menu CSS */
 #wpadminbar .quicklinks #wp-admin-bar-dsgnwrks_genesis_menu > a {
