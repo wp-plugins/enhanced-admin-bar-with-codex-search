@@ -5,7 +5,7 @@ Plugin URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Description: This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, and common wp-admin areas via the 3.1 Admin Bar.
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
-Donate link: http://dsgnwrks.pro/give/
+Donate link: http://j.ustin.co/rYL89n
 Stable tag: 2.0.3
 Version: 2.0.3
 */
