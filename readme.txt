@@ -40,8 +40,11 @@ Other plugin features:
 
 == Frequently Asked Questions ==
 
-<h4>Can I enable/disable dashboard widget?</h4>
-<p><strong>YES!</strong> Plugin now includes an option page to control which features are enabled. Dashboard widget is off by default.</p>
+= Can I enable/disable dashboard widget? =
+**YES!** Plugin now includes an option page to control which features are enabled. Dashboard widget is off by default.
+
+= ?? =
+If you run into a problem or have a question, contact me ([contact form](http://j.ustin.co/scbo43) or [@jtsternberg on twitter](http://j.ustin.co/wUfBD3)). I'll add them here.
 
 == Screenshots ==
 
