@@ -244,6 +244,11 @@
 .jtsocial {
 	float: right;
 }
+.jtsocial a {
+	display: block;
+	margin-bottom: 10px;
+	text-align: right;
+}
 .jtsocial a span {
 	background: url(../images/social.png) no-repeat top left;
 	display: inline-block;
