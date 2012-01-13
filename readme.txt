@@ -7,10 +7,10 @@ Plugin URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Tags: Admin Bar, Codex Search, Search, Admin, adminbar, bar, topbar, plugin search, dashboard widget, wpbeginner, custom menu, menus, forum search, genesis
 Author URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Author: DsgnWrks
-Donate link: http://dsgnwrks.pro/give/
+Donate link: http://j.ustin.co/rYL89n
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: trunk
+Stable tag: 2.0.3
 Version: 2.0.3
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, WordPress support forums and common wp-admin areas via the WordPress Admin Bar. Also, add your own custom menu to the Admin Bar. options can now be controlled from an options page.
