@@ -81,6 +81,9 @@
         </p>
 
     </form>
-    <p class="jtsocial"><a class="jtpaypal" href="http://j.ustin.co/rYL89n" target="_blank">Contribute<span></span></a> <a class="jttwitter" href="http://j.ustin.co/wUfBD3" target="_blank">Follow me on Twitter<span></span></a><a class="jtemail" href="http://j.ustin.co/scbo43" target="blank">Contact Me<span></span></a></p>
+    <p class="jtsocial"><a class="jtpaypal" href="http://j.ustin.co/rYL89n" target="_blank">Contribute<span></span></a>
+        <a class="jttwitter" href="http://j.ustin.co/wUfBD3" target="_blank">Follow me on Twitter<span></span></a>
+        <a class="jtemail" href="http://j.ustin.co/scbo43" target="blank">Contact Me<span></span></a>
+    </p>
 
 </div>
