@@ -12,6 +12,8 @@ Requires at least: 3.1
 Tested up to: 3.3
 Stable tag: 2.0.3
 Version: 2.0.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin adds convenient search fields to provide easy access to the codex, wpbeginner, WordPress support forums and common wp-admin areas via the WordPress Admin Bar. Also, add your own custom menu to the Admin Bar. options can now be controlled from an options page.
 
