@@ -9,9 +9,9 @@ Author URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
 Requires at least: 3.1
-Tested up to: 3.3
-Stable tag: 2.0.4
-Version: 2.0.4
+Tested up to: 3.4.1
+Stable tag: 2.0.5
+Version: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 
 == Changelog ==
 
+= 2.0.5 =
+* Fixes bug where only one custom post-type would display. Also now works for user roles other than Admins. Props to [@underblob](https://twitter.com/underblob)
+
 = 2.0.4 =
 * Fixed broken image link, and fixed some WP_DEBUG errors.
 
@@ -96,6 +99,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
 == Upgrade Notice ==
+
+= 2.0.5 =
+Fixes bug where only one custom post-type would display. Also now works for user roles other than Admins. Props to [@underblob](https://twitter.com/underblob)
 
 = 2.0.4 =
 Fixed broken image link, and fixed some WP_DEBUG errors.
