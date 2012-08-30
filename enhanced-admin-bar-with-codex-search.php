@@ -6,8 +6,8 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
-Stable tag: 2.0.5
-Version: 2.0.5
+Stable tag: 2.0.5.1
+Version: 2.0.5.1
 */
 
 
@@ -42,13 +42,15 @@ add_action('wp_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
 add_action('admin_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
 function dsgnwrks_adminbar_search_css() {
 	wp_enqueue_style('adminbar_search_css', plugins_url('css/adminbar_search.css', __FILE__));
-	// Adds styles that compensates for a Genesis issue with Admin Bar dropdowns.  As a result, fixes admin bar issues for those using Genesis	?>
-	<style type="text/css">
-		#wpadminbar .quicklinks li:hover ul ul {
-		  left: auto;
-		}
-	</style>
-<?php }
+}
+
+add_action('admin_head', 'dsgnwrks_adminbar_genesis_fix');
+function dsgnwrks_adminbar_genesis_fix() {
+	// Adds styles that compensates for a Genesis issue with Admin Bar dropdowns.  As a result, fixes admin bar issues for those using Genesis
+?>
+<style type="text/css">#wpadminbar .quicklinks li:hover ul ul { left: auto; }</style>
+<?php
+}
 
 // Add Custom Menu Option
 add_action('init', 'dsgnwrks_adminbar_nav');

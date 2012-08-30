@@ -1,7 +1,7 @@
 === Plugin Name ===
 Enhanced Admin Bar with Codex Search and Custom Menus
 
-Contributors: jtsternberg
+Contributors: jtsternberg, underblob
 Plugin Name: Enhanced Admin Bar with Codex Search and Custom Menus
 Plugin URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Tags: Admin Bar, Codex Search, Search, Admin, adminbar, bar, topbar, plugin search, dashboard widget, wpbeginner, custom menu, menus, forum search, genesis
@@ -10,8 +10,8 @@ Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
 Requires at least: 3.1
 Tested up to: 3.4.1
-Stable tag: 2.0.5
-Version: 2.0.5
+Stable tag: 2.0.5.1
+Version: 2.0.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 
 == Changelog ==
 
+= 2.0.5.1 =
+* Moves style block to correct spot (in admin_head).
+
 = 2.0.5 =
 * Fixes bug where only one custom post-type would display. Also now works for user roles other than Admins. Props to [@underblob](https://twitter.com/underblob)
 
@@ -99,6 +102,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
 == Upgrade Notice ==
+
+= 2.0.5.1 =
+Moves style block to correct spot (in admin_head).
 
 = 2.0.5 =
 Fixes bug where only one custom post-type would display. Also now works for user roles other than Admins. Props to [@underblob](https://twitter.com/underblob)
