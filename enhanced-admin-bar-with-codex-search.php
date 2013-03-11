@@ -6,8 +6,8 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
-Stable tag: 2.0.5.1
-Version: 2.0.5.1
+Stable tag: 2.0.5.2
+Version: 2.0.5.2
 */
 
 
@@ -330,35 +330,27 @@ function dsgnwrks_menu_init( $eab_wp_forums='', $eab_wp_beginner='', $eab_go_but
 // add theme info dashboard widget
 add_action('wp_dashboard_setup', 'dsgnwrks_themeinfo_dash_widget');
 function dsgnwrks_themeinfo_dash_widget() {
-
-	if ( $eab_dash_widget = get_option( 'eab-dash-widget' ) ) {
-
-		global $wp_meta_boxes;
-		$dw_theme_name = get_current_theme();
-		$dw_theme_data = get_theme($dw_theme_name);
-		wp_add_dashboard_widget("dw_themeinfo_widget", "<div class='theme_info'>{$dw_theme_data["Name"]} by {$dw_theme_data["Author"]}</div>", "dsgnwrks_themeinfo_widget");
-
+	if ( get_option( 'eab-dash-widget' ) ) {
+		$theme = wp_get_theme();
+		wp_add_dashboard_widget('dw_themeinfo_widget', '<div class="theme_info">'. $theme->display('Name') .' by '. $theme->display('Author') .'</div>', 'dsgnwrks_themeinfo_widget');
 	}
 }
 
 function dsgnwrks_themeinfo_widget() {
-	$theme_name = get_current_theme();
-	global $wp_meta_boxes;
-	$dw_theme_name = get_current_theme();
-	$dw_theme_data = get_theme($dw_theme_name);
-	?>
-	<div class='theme_info'>
-	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/screenshot.png" alt="<?php _e('Current theme preview'); ?>" />
-	<?php
-	echo "<p>{$dw_theme_data["Description"]}</p>";
-	if ($dw_theme_data["Version"]){
-		echo "<p>Version: {$dw_theme_data["Version"]}</p>";
-	}
-	if ($dw_theme_data["Tags"]){
-		echo "<p>Tags: " . join(', ', $dw_theme_data['Tags'])."</p>";
-	}
+	$theme = wp_get_theme();
+	$thumb = $theme->get_screenshot();
+	$desc = $theme->display('Description');
+	$version = $theme->display('Version');
+	$tags = $theme->get('Tags');
+	$author = $theme->display('Author');
 
-	echo "<p>For support, please contact {$dw_theme_data["Author"]}.</p></div>";
+	echo '<div class="theme_info">';
+	echo isset( $thumb ) ? '<img src="'. esc_url( $thumb ) .'"/>' : '';
+	echo isset( $desc ) ? wpautop( $desc ) : '';
+	echo isset( $version ) ? '<p>Version: '. $version .'</p>' : '';
+	echo isset( $tags ) ? '<p>Tags: '. join( ', ', $tags ) .'</p>' : '';
+	echo isset( $author ) ? '<p>For support, please contact '. $author .'.</p>' : '';
+	echo '</div>';
 }
 
 

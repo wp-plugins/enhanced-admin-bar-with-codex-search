@@ -1,4 +1,4 @@
-<?php 
+<?php
     $codex_search_submenu = get_option( 'eab-codex-search-submenu' );
     $eab_admin_searches = get_option( 'eab-admin-searches' );
     $eab_wp_forums = get_option( 'eab-wp-forums' );
@@ -23,7 +23,7 @@
             </th>
             <td><input type="checkbox" name="eab-codex-search-submenu" value="yes"<?php echo $codex_search_submenu == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-             
+
             <tr valign="top">
             <th scope="row">
             <strong>Admin bar codex search and search submenus (admin-side)</strong>
@@ -31,7 +31,7 @@
             </th>
             <td><input type="checkbox" name="eab-admin-searches" value="yes"<?php echo $eab_admin_searches == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-             
+
             <tr valign="top">
             <th scope="row">
             <strong>Search WordPress Support Forums</strong>
@@ -39,7 +39,7 @@
             </th>
             <td><input type="checkbox" name="eab-wp-forums" value="yes"<?php echo $eab_wp_forums == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-            
+
             <tr valign="top">
             <th scope="row">
             <strong>Search WPBeginner</strong>
@@ -47,7 +47,7 @@
             </th>
             <td><input type="checkbox" name="eab-wp-beginner" value="yes"<?php echo $eab_wp_beginner == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-            
+
             <tr valign="top">
             <th scope="row">
             <strong>Add custom menu option for admin bar</strong>
@@ -55,7 +55,7 @@
             </th>
             <td><input type="checkbox" name="eab-custom-menu" value="yes"<?php echo $eab_custom_menu == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-            
+
             <?php if ( function_exists( 'genesis' ) ) { ?>
                 <tr valign="top">
                 <th scope="row">
@@ -65,7 +65,7 @@
                 <td><input type="checkbox" name="eab-genesis-menu" value="yes"<?php echo $eab_genesis_menu == 'yes' ? ' checked' : '';?> /></td>
                 </tr>
             <?php } ?>
-            
+
             <tr valign="top">
             <th scope="row">
             <strong>Add theme info dashboard widget</strong>
@@ -73,9 +73,9 @@
             </th>
             <td><input type="checkbox" name="eab-dash-widget" value="yes"<?php echo $eab_dash_widget == 'yes' ? ' checked' : '';?> /></td>
             </tr>
-            
+
         </table>
-        
+
         <p class="submit">
         <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
         </p>
