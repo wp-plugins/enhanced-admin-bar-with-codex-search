@@ -8,10 +8,10 @@ Tags: Admin Bar, Codex Search, Search, Admin, adminbar, bar, topbar, plugin sear
 Author URI: http://dsgnwrks.pro/enhanced-admin-bar-with-codex-search/
 Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
-Requires at least: 3.1
-Tested up to: 3.4.1
-Stable tag: 2.0.5.1
-Version: 2.0.5.1
+Requires at least: 3.4
+Tested up to: 3.5
+Stable tag: 2.0.5.2
+Version: 2.0.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 
 == Changelog ==
 
+= 2.0.5.2 =
+* Removed deprecated functions. Plugin now requires 3.4.
+
 = 2.0.5.1 =
 * Moves style block to correct spot (in admin_head).
 
@@ -102,6 +105,9 @@ If you run into a problem or have a question, contact me ([contact form](http://
 * Added an option to add a custom menu to the Admin Bar from the built-in WordPress menu system.
 
 == Upgrade Notice ==
+
+= 2.0.5.2 =
+* Removed deprecated functions. Plugin now requires 3.4.
 
 = 2.0.5.1 =
 Moves style block to correct spot (in admin_head).
