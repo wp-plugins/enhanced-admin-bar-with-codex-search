@@ -6,21 +6,20 @@ Description: This plugin adds convenient search fields to provide easy access to
 Author URI: http://dsgnwrks.pro
 Author: DsgnWrks
 Donate link: http://j.ustin.co/rYL89n
-Stable tag: 2.0.5.3
-Version: 2.0.5.3
+Stable tag: 2.0.6
+Version: 2.0.6
 */
-
 
 add_action('admin_init', 'dsgnwrks_adminbar_init');
 function dsgnwrks_adminbar_init() {
 
 	// Register plugin options
-    register_setting('enhanced-admin-bar', 'eab-codex-search-submenu');
-    register_setting('enhanced-admin-bar', 'eab-admin-searches');
-    register_setting('enhanced-admin-bar', 'eab-wp-forums');
-    register_setting('enhanced-admin-bar', 'eab-wp-beginner');
-    register_setting('enhanced-admin-bar', 'eab-custom-menu');
-    if ( function_exists( 'genesis' ) ) register_setting('enhanced-admin-bar', 'eab-genesis-menu');
+	register_setting('enhanced-admin-bar', 'eab-codex-search-submenu');
+	register_setting('enhanced-admin-bar', 'eab-admin-searches');
+	register_setting('enhanced-admin-bar', 'eab-wp-forums');
+	register_setting('enhanced-admin-bar', 'eab-wp-beginner');
+	register_setting('enhanced-admin-bar', 'eab-custom-menu');
+	if ( function_exists( 'genesis' ) ) register_setting('enhanced-admin-bar', 'eab-genesis-menu');
 
 	// Set default plugin options
 	add_option( 'eab-codex-search-submenu', 'yes' );
@@ -46,7 +45,9 @@ function dweab_body_class( $classes ) {
 add_action('wp_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
 add_action('admin_enqueue_scripts', 'dsgnwrks_adminbar_search_css');
 function dsgnwrks_adminbar_search_css() {
-	wp_enqueue_style( 'adminbar_search', plugins_url('css/adminbar_search.css', __FILE__), null, '2.0.5.3' );
+	if ( is_admin_bar_showing() ) {
+		wp_enqueue_style( 'adminbar_search', plugins_url('css/adminbar_search.css', __FILE__), null, '2.0.5.3' );
+	}
 }
 
 add_action('admin_head', 'dsgnwrks_adminbar_genesis_fix');
